@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.whole{
+  background-color: #004643;
+  height: 100vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: #fffffe;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.profile img{
+  width: 30vw;
+  height: 70vh;
+  border-radius: 50%;
+}
+div.firstpage div.headings{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70vh;
+  margin: 5px;
+  padding: 5px;
+
+}
+div.headings div.icons{
+  display: flex;
+  justify-content: space-around;
+}
+div.icons a img{
+  width: 5vw;
+  height: 10vh;
+} 
+
+div.firstpage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+div.headings{
+  color: #fffffe;
+}
+
+div.about{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: #abd1c6;
+  padding: 20px;
+}
+div.about p{
+  width: 50%;
+  height: 100%;
+  font-size: 20px;
+  line-height: 2;
+}
+div.about img{
+  width: 30vw;
+  height: 80vh;
+}
+
+/* projects section */
+div.projects{
+  background-color: #004643;
+  height: 110vh;
+  padding: 10px;
+}
+div.projects h1{
+  text-align: center;
+  color: #fffffe;
+  font-size: 50px;
+  padding: 10px;
+}
+div.projects div.items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+div.items figure{
+  width: 25%;
+  height: 70vh;
+  background-color: #e8e4e6;
+  margin: 5px;
+  border-radius: 10px;
+}
+figure figcaption{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  margin: 5px;
+}
+figcaption h2{
+  color: #001e1d;
+}
+figcaption p{
+  color: #0f3433;
+  font-size: 18px;
+}
+figcaption a{
+  background-color: #004643;
+  color: #fffffe;
+  text-decoration: none;
+  padding: 15px 10px;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+div.items figure img{
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #abd1c6;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+footer h1{
+  color: #001e1d;
+  font-size: 40px;
+}
+
+footer h3{
+  color: #001e1d;
+  font-size: 25px;
+}
+footer button{
+  width: 15%;
+  background-color: #f9bc60;
+  
+  padding: 15px 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+footer button a{
+  text-decoration: none;
+  color: #001e1d;
+  font-size: 16px;
+}
